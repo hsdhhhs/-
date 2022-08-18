@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./index.css">
+  
+</head>
+<body>
+<div class="pro-main">
+  <div class="cart-info">
+    <div class="all"><input type="checkbox" class="allCheck">全选</div>
+    <div class="pro-info">商品</div>
+    <div class="dj-price">商品详情</div>
+    <div class="num-pro">数量</div>
+    <div class="zj-price">单价</div>
+    <div class="cz">操作</div>
+  </div>
+  <div class="cart-main">
+    <div class="cart-item">
+      <div class="cart-j fl">
+        <input type="checkbox" class="j-check" >
+      </div>
+      <div class="pro-item fl">
+        <div class="pro-img fl"><img src="./img/屏幕截图 2022-08-18 193855.png" alt=""></div>
+        <div class="pro-title fl">产品标题</div>
+        <div class="pro-gg fl">一键</div>
+      </div>
+      <div class="price-num fl">
+        <a href="javascript:;" class="increment">+</a>
+        <input type="text" value="1" readonly="readonly" class="num">
+        <a href="javascript:;" class="decrement">-</a>
+      </div>
+      <div class="price-jiner fl">9.00</div>
+      <div class="price-caozuo fl"><a href="#" class="del-d">删除</a></div>
+    </div>
+    <div class="cart-item">
+      <div class="cart-j fl">
+        <input type="checkbox" class="j-check">
+      </div>
+      <div class="pro-item fl">
+        <div class="pro-img fl"><img src="./img/屏幕截图 2022-08-18 193924,.png" alt=""></div>
+        <div class="pro-title fl">产品标题</div>
+        <div class="pro-gg fl">一键</div>
+      </div>
+      <div class="price-num fl">
+        <a href="javascript:;" class="increment">+</a>
+        <input type="text" value="1" readonly="readonly" class="num">
+        <a href="javascript:;" class="decrement">-</a>
+      </div>
+      <div class="price-jiner fl" id="price">8.00</div>
+      <div class="price-caozuo fl"><a href="javascript:;" class="del-d">删除</a></div>
+    </div>
+  <div class="cart-info">
+    <div class="all fl">&nbsp;&nbsp;&nbsp;&nbsp;</div>
+    <div class="fl">
+      <a href="#" class="clearAll">批量删除</a>
+    </div>
+    <div class="fr" style="width: 500px;">
+      <div class="spnum fl">
+        已选商品<em>0</em>件
+      </div>
+      <div class="priceAll fl">合计（不含运费）: <span>0.00 元</span></div>
+      <div class="jiesuan fr"><a href="#" class="js-btn">结算</a></div>
+    </div>
+  </div>
+</div>
+  
+
+<script src="./jquery.min.js"></script>
+<script src="./index.js"></script>
+</body>
+</html>

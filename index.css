@@ -1,0 +1,140 @@
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    font-size:13px;
+}
+input {
+    vertical-align:middle;
+}
+a {
+    text-decoration:none;
+    color:#333333;
+}
+.fl {
+    float:left;
+}
+.fr {
+    float:right;
+}
+.pro-main {
+    width:1000px;
+    margin:100px auto;
+}
+.cart-info .all,.cart-info .pro-info,.cart-info .dj-price,.cart-info .num-pro,.cart-info .zj-price,.cart-info .cz {
+    float:left;
+}
+.cart-info {
+    height:40px;
+    line-height:40px;
+    background-color:#9feef8;
+}
+.cart-info .all {
+    width:80px;
+    padding:0px 15px;
+}
+.cart-info .all input {
+    margin-right:8px;
+}
+.cart-info .pro-info {
+    width:500px;
+}
+.cart-info .dj-price {
+    width:80px;
+}
+.cart-info .num-pro {
+    width:120px;
+}
+.cart-info .zj-price {
+    width:110px;
+}
+.cart-info .cz {
+    width:80px;
+}
+.cart-main {
+    margin-top:15px;
+}
+.cart-item {
+    border:1px solid #EFEFEF;
+    padding:15px;
+    overflow:hidden;
+    margin-bottom:15px;
+}
+.cart-j {
+    width:30px;
+}
+.pro-item {
+    width:560px;
+}
+.pro-item .pro-img {
+    width:80px;
+    height:80px;
+}
+.pro-item .pro-title {
+    width:225px;
+    line-height:1.8;
+    padding:0px 15px;
+}
+.pro-item .pro-gg {
+    width:185px;
+    padding:0px 15px;
+    font-size:10px;
+    color:#666;
+}
+.price-g {
+    width:80px;
+    color:black;
+    font-weight:bold;
+}
+.price-num {
+    width:95px;
+    margin-right:30px;
+    background-color:#EFEFEF;
+    /* border:1px solid #EFEFEF;
+    */
+}
+.price-num .increment,.price-num .decrement {
+    width:20px;
+    float:left;
+    text-align:center;
+}
+.price-num .num {
+    float:left;
+    width:50px;
+    text-align:center;
+}
+.price-jiner{
+    width:110px;
+    color:red;
+    font-weight:bold;
+}
+.price-caozuo {
+    width:40px;
+}
+.priceAll {
+    margin:0px 20px;
+}
+.priceAll span {
+    padding:0px 8px;
+    color:#f22d00;
+    font-weight:bold;
+    font-size:15px;
+}
+.spnum em {
+    font-style:normal;
+    padding:0px 8px;
+    color:#f22d00;
+    font-weight:bold;
+    font-size:15px;
+}
+.js-btn {
+    display:block;
+    width:100px;
+    text-align:center;
+    background-color:#f22d00;
+    color:white;
+}
+.pro-item img {
+    width:80px;
+}
